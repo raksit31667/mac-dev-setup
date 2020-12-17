@@ -6,23 +6,41 @@ The document assumes you are new to Mac, but can also be useful if you are reins
 
 **Contributing**: If you find any mistakes in the steps described below, or if any of the commands are outdated, do let me know! For any other suggestions, please understand if I don't include everything. This guide was originally written for some friends getting started with programming on a Mac, and as a personal reference for myself. I'm trying to keep it simple!
 
-- [System update](#system-update)
-- [System preferences](#system-preferences)
-- [Security](#security)
-- [iTerm2](#iterm2)
-- [Homebrew](#homebrew)
-- [Git](#git)
-- [Visual Studio Code](#visual-studio-code)
-- [Vim](#vim)
-- [Python](#python)
-- [Node.js](#nodejs)
-- [Ruby](#ruby)
-- [Heroku](#heroku)
-- [PostgreSQL](#postgresql)
-- [Redis](#redis)
-- [Elasticsearch](#elasticsearch)
-- [Projects folder](#projects-folder)
-- [Apps](#apps)
+- [macOS Dev Setup](#macos-dev-setup)
+  - [System update](#system-update)
+  - [System preferences](#system-preferences)
+  - [Security](#security)
+  - [iTerm2](#iterm2)
+    - [Install](#install)
+    - [Beautiful terminal](#beautiful-terminal)
+  - [Homebrew](#homebrew)
+    - [Install](#install-1)
+    - [Usage](#usage)
+    - [Homebrew Services](#homebrew-services)
+  - [Git](#git)
+  - [Visual Studio Code](#visual-studio-code)
+  - [Vim](#vim)
+  - [Python](#python)
+    - [pip](#pip)
+    - [virtualenv](#virtualenv)
+    - [Anaconda and Miniconda](#anaconda-and-miniconda)
+    - [Known issue: `gettext` not found by `git` after installing Anaconda/Miniconda](#known-issue-gettext-not-found-by-git-after-installing-anacondaminiconda)
+  - [Node.js](#nodejs)
+    - [npm](#npm)
+  - [Ruby](#ruby)
+    - [Install](#install-2)
+    - [Usage](#usage-1)
+    - [RubyGems & Bundler](#rubygems--bundler)
+  - [Heroku](#heroku)
+  - [PostgreSQL](#postgresql)
+    - [GUI](#gui)
+  - [Redis](#redis)
+  - [Elasticsearch](#elasticsearch)
+    - [Install](#install-3)
+    - [Usage](#usage-2)
+    - [GUI](#gui-1)
+  - [Projects folder](#projects-folder)
+  - [Apps](#apps)
 
 ## System update
 
@@ -153,6 +171,12 @@ To see what you have installed (with their version numbers):
 
 ```
 brew list --versions
+```
+
+To install all formula from text file:
+
+```
+xargs brew install < homebrew.txt
 ```
 
 ### Homebrew Services
