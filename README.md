@@ -27,6 +27,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [Known issue: `gettext` not found by `git` after installing Anaconda/Miniconda](#known-issue-gettext-not-found-by-git-after-installing-anacondaminiconda)
   - [Node.js](#nodejs)
     - [npm](#npm)
+    - [yarn](#yarn)
   - [Ruby](#ruby)
     - [Install](#install-2)
     - [Usage](#usage-1)
@@ -624,6 +625,46 @@ To uninstall a package:
 
 ```
 npm uninstall --save <package>
+```
+
+### yarn
+
+To install a package:
+
+```
+yarn add <package> # Install locally
+yarn global add <package> # Install globally
+```
+
+To install a package and save it in your dev's dependencies:
+
+```
+yarn add <package> --dev
+```
+
+To see what's installed:
+
+```
+yarn list # Local packages
+yarn global list # Global packages
+```
+
+To find outdated packages (locally or globally):
+
+```
+yarn outdated
+```
+
+To upgrade all or a particular package:
+
+```
+yarn upgrade [<package>] --latest
+```
+
+To uninstall a package:
+
+```
+yarn remove <package>
 ```
 
 ## Ruby
