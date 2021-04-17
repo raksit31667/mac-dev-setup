@@ -23,6 +23,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [Themes](#themes)
   - [Git](#git)
   - [Visual Studio Code](#visual-studio-code)
+  - [IntelliJ IDEA](#intellij-idea)
   - [Vim](#vim)
   - [Python](#python)
     - [pip](#pip)
@@ -351,6 +352,32 @@ VS Code is very extensible. To customize it further, open the **Extensions** tab
 Let's do that now to customize the color of our editor. Search for the [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) extension, select it and click **Install**. Repeat this for the [Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight).
 
 Finally, activate the theme by going to **Code > Preferences > Color Theme** and selecting **Atom One Dark** (or **Atom One Light** if that is your preference).
+
+## IntelliJ IDEA
+
+Every aspect of [IntelliJ IDEA](https://www.jetbrains.com/idea/) has been designed to maximize developer productivity. Together, intelligent coding assistance and ergonomic design make development not only productive but also enjoyable.
+
+Configure the macOS keymap by going to **Preferences > Keymap** and selecting **IntelliJ IDEA Classic**.
+
+List of my installed plugins:
+```
+.ignore (4.0.3)
+Atom Material Icons (35.0)
+Go Template (203.7148.40)
+Karma (203.7717.11)
+Key Promoter X (2021.1.1)
+Kubernetes (203.7148.15)
+MapStruct Support (1.2.4)
+Material Theme UI (5.6.0.1)
+Nyan Progress Bar (1.14)
+Presentation Assistant (1.0.9)
+Python (203.7717.81)
+Redis Manager (1.2.2)
+Robot Plugin (1.7.1)
+Scala (2020.3.23)
+SonarLint (4.14.2.28348)
+WakaTime (12.0.7)
+```
 
 ## Vim
 
