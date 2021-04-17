@@ -17,6 +17,10 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [Install](#install-1)
     - [Usage](#usage)
     - [Homebrew Services](#homebrew-services)
+  - [Oh My Zsh](#oh-my-zsh)
+    - [Install](#install-2)
+    - [Plugins](#plugins)
+    - [Themes](#themes)
   - [Git](#git)
   - [Visual Studio Code](#visual-studio-code)
   - [Vim](#vim)
@@ -203,6 +207,69 @@ At anytime you can view which services are running with:
 ```
 brew services list
 ```
+
+## Oh My Zsh
+
+[Oh My Zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout... "Oh My ZSH!"
+
+### Install
+
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line.
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Once installation is done, [install Homebrew and its dependencies](#homebrew), then replace default `.zshrc` with the one included in this repository.
+
+```
+sudo mv path/to/your/.zshrc ~/.zshrc
+```
+
+Refresh the terminal session with command-line:
+
+```
+source ~/.zshrc
+```
+
+To uninstall Oh My Zsh:
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/uninstall.sh)"
+```
+
+### Plugins
+
+Oh My Zsh comes bundled with plugins, which allow you to take advantage of functionality of many sorts to your shell just by enabling them. They are each documented in the README file in their respective plugins/ folder.
+
+Clone your plugin repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins):
+
+```
+git clone https://github.com/your-plugin-repo ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/your-plugin-name
+```
+
+Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
+
+```
+plugins=(your-plugin-name)
+```
+
+Refresh the terminal session with command-line:
+
+```
+source ~/.zshrc
+```
+
+My plugins:
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+
+### Themes
+
+In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=your-theme-name` If you do not want any theme enabled, just set `ZSH_THEME` to blank: `ZSH_THEME=""`
+
+My themes:
+- [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt#oh-my-zsh)
+
 
 ## Git
 
