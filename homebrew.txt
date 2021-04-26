@@ -36,3 +36,4 @@ pyenv-virtualenv
 mactex
 visual-studio-code
 cf-cli
+terraform-docs
