@@ -182,7 +182,7 @@ brew list --versions
 To install all formula from text file:
 
 ```
-xargs brew install < homebrew.txt
+xargs brew install < homebrew-formula.txt
 ```
 
 ### Homebrew Services
