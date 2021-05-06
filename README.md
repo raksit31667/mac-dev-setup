@@ -185,6 +185,12 @@ To install all formula from text file:
 xargs brew install < homebrew-formula.txt
 ```
 
+To install all casks from text file:
+
+```
+xargs brew install --cask < homebrew-formula.txt
+```
+
 ### Homebrew Services
 
 A nice extension to Homebrew is [Homebrew Services](https://github.com/Homebrew/homebrew-services). It will automatically launch things like databases when your computer starts, so you don't have to do it manually every time.
