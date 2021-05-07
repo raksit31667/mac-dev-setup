@@ -179,6 +179,19 @@ To see what you have installed (with their version numbers):
 brew list --versions
 ```
 
+To list all formula for updating text file:
+
+```
+brew list --formula -1
+```
+
+To list all casks for updating text file:
+
+```
+brew list --cask -1
+```
+
+
 To install all formula from text file:
 
 ```
