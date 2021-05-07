@@ -372,6 +372,8 @@ Let's do that now to customize the color of our editor. Search for the [Atom One
 
 Finally, activate the theme by going to **Code > Preferences > Color Theme** and selecting **Atom One Dark** (or **Atom One Light** if that is your preference).
 
+To sync-up all settings, including extensions, themes, and key bindings, install [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) then refer with this Gist https://gist.github.com/raksit31667/fd9d40a03773c43b663aabd834d62716.
+
 ## IntelliJ IDEA
 
 Every aspect of [IntelliJ IDEA](https://www.jetbrains.com/idea/) has been designed to maximize developer productivity. Together, intelligent coding assistance and ergonomic design make development not only productive but also enjoyable.
