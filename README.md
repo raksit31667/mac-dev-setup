@@ -403,6 +403,8 @@ SonarLint (4.14.2.28348)
 WakaTime (12.0.7)
 ```
 
+To share IDE settings on JetBrain accounts, check out this guideline: https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository
+
 ## Vim
 
 Although VS Code will be our main editor, it is a good idea to learn some very basic usage of [Vim](http://www.vim.org/). It is a very popular text editor inside the terminal, and is usually pre-installed on any Unix system.
