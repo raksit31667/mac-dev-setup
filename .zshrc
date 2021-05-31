@@ -128,3 +128,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # Ruby configuration
 eval "$(rbenv init -)"
+
+# Groovy configuration
+export GROOVY_HOME=/usr/local/Cellar/groovysdk/3.0.8/libexec
