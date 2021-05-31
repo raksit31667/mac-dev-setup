@@ -131,3 +131,6 @@ eval "$(rbenv init -)"
 
 # Groovy configuration
 export GROOVY_HOME=/usr/local/Cellar/groovysdk/3.0.8/libexec
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
