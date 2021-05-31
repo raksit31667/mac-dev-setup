@@ -37,4 +37,4 @@ mactex
 visual-studio-code
 cf-cli
 terraform-docs
-groovy
+groovysdk
