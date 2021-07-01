@@ -45,6 +45,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [Install](#install-3)
     - [Usage](#usage-2)
     - [GUI](#gui-1)
+  - [Chrome extensions](#chrome-extensions)
   - [Projects folder](#projects-folder)
   - [Apps](#apps)
 
@@ -1028,6 +1029,12 @@ However, if you prefer a graphical interface, you can take a look at [Dejavu](ht
 ## Projects folder
 
 This really depends on how you want to organize your files, but I like to put all my version-controlled projects in `~/Projects`. Other documents I may have, or things not yet under version control, I like to put in `~/Dropbox` (if you have [Dropbox](https://www.dropbox.com/) installed), or `~/Documents` if you prefer to use [iCloud Drive](https://support.apple.com/en-ca/HT206985).
+
+## Chrome extensions
+You can customize Chrome on your desktop by adding extensions from the Chrome Web Store.
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) Validate and view JSON documents.
+- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.
+- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
 
 ## Apps
 
