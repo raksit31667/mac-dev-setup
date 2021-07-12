@@ -1047,3 +1047,4 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [Bluesnooze](https://github.com/odlp/bluesnooze/): Prevents your sleeping Mac from connecting to Bluetooth accessories. **(Free)**
 - [Lens](https://k8slens.dev/): The Kubernetes IDE. **(Free)**
 - [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox): Free universal JMS client. **(Free)**
+- [diagrams.net](https://get.diagrams.net/): Online diagramming web site. **(Free)**
