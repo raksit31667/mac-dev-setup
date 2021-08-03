@@ -119,8 +119,8 @@ alias java11='export JAVA_HOME=$JAVA_11_HOME'
 java11
 
 # Python configuration
-if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init --path)"; fi
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init --path)"; fi
 
 # Node.js configuration
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
