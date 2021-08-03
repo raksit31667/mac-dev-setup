@@ -38,3 +38,8 @@ visual-studio-code
 cf-cli
 terraform-docs
 groovysdk
+openssl
+readline
+sqlite3
+xz
+zlib
