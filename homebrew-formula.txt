@@ -1,5 +1,4 @@
 python
-maven
 scala@2.12
 helm
 node
