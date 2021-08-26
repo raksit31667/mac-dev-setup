@@ -34,7 +34,6 @@ gitmoji
 pyenv
 pyenv-virtualenv
 mactex
-visual-studio-code
 cf-cli
 terraform-docs
 groovysdk
