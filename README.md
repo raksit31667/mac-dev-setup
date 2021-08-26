@@ -12,6 +12,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
   - [Security](#security)
   - [iTerm2](#iterm2)
     - [Install](#install)
+    - [Using Alt/Cmd + Right/Left Arrow](#natural-text-editing)
     - [Beautiful terminal](#beautiful-terminal)
   - [Homebrew](#homebrew)
     - [Install](#install-1)
@@ -90,6 +91,14 @@ Let's just quickly change some preferences. In **iTerm2 > Preferences...**, unde
 In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Under the section **General** set **Working Directory** to be **Reuse previous session's directory**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
 
 When done, hit the red "X" in the upper left (saving is automatic in macOS preference panes). Close the window and open a new one to see the size change.
+
+### Using Alt/Cmd + Right/Left Arrow
+If you're using iterm on a Mac you can enable **"Natural Text Editing"** which allows you to navigate by words using 'option + left/right'.  
+
+1. Go to iTerm Preferences → Profiles
+2. Select your profile, then the Keys tab
+3. Click Load Preset... or Key Mappings -> Presets...
+4. Choose Natural Text Editing
 
 ### Beautiful terminal
 
