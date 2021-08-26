@@ -1,3 +1,2 @@
-adoptopenjdk11
-adoptopenjdk8
+adoptopenjdk
 aws-vault
