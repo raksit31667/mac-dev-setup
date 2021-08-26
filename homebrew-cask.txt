@@ -1,4 +1,3 @@
 adoptopenjdk11
 adoptopenjdk8
-visual-studio-code
 aws-vault
