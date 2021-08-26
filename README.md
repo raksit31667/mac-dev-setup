@@ -1041,7 +1041,7 @@ You can customize Chrome on your desktop by adding extensions from the Chrome We
 Here is a quick list of some apps I use, and that you might find useful as well:
 
 - [1Password](https://1password.com/): Securely store your login and passwords, and access them from all your devices. **($3/month)**
-- [Postman](https://www.getpostman.com/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
+- [Postman](https://www.postman.com/downloads/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
 - [Spectacle](https://www.spectacleapp.com/): Move and resize windows with keyboard shortcuts. **(Free)**
 - [Clipy](https://clipy-app.com/): A Clipboard extension app for macOS. **(Free)**
 - [Bluesnooze](https://github.com/odlp/bluesnooze/): Prevents your sleeping Mac from connecting to Bluetooth accessories. **(Free)**
