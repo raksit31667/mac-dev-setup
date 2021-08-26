@@ -1026,6 +1026,7 @@ You can customize Chrome on your desktop by adding extensions from the Chrome We
 
 Here is a quick list of some apps I use, and that you might find useful as well:
 
+- [Docker Desktop](https://www.docker.com/products/docker-desktop): The fastest way to containerize applications on your desktop. **(Free)**
 - [1Password](https://1password.com/): Securely store your login and passwords, and access them from all your devices. **($3/month)**
 - [Postman](https://www.postman.com/downloads/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
 - [Spectacle](https://www.spectacleapp.com/): Move and resize windows with keyboard shortcuts. **(Free)**
