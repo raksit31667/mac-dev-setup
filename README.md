@@ -365,7 +365,9 @@ To sync-up all settings, including extensions, themes, and key bindings, install
 
 Every aspect of [IntelliJ IDEA](https://www.jetbrains.com/idea/) has been designed to maximize developer productivity. Together, intelligent coding assistance and ergonomic design make development not only productive but also enjoyable.
 
-Configure the macOS keymap by going to **Preferences > Keymap** and selecting **IntelliJ IDEA Classic**.
+Configure the macOS keymap by going to **Preferences > Keymap** and selecting **IntelliJ IDEA Classic**.  
+
+Keeping Terminal history and auto-suggestions by navigating to **Preferences > Tools > Terminal** and unchecking **Shell integration**.
 
 List of my installed plugins:
 ```
