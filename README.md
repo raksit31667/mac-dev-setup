@@ -369,7 +369,9 @@ Java™ is the world's leading programming language and platform. AdoptOpenJDK u
 Install OpenJDK via Homebrew by running:
 
 ```
-brew install --cask adoptopenjdk
+brew tap adoptopenjdk/openjdk
+
+brew install --cask adoptopenjdk11
 brew install openjdk
 ```
 
