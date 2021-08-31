@@ -14,6 +14,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
 - [Oh My Zsh](#oh-my-zsh)
 - [Git](#git)
 - [Visual Studio Code](#visual-studio-code)
+- [Java](#java)
 - [IntelliJ IDEA](#intellij-idea)
 - [Vim](#vim)
 - [Python](#python)
@@ -360,6 +361,37 @@ Let's do that now to customize the color of our editor. Search for the [Atom One
 Finally, activate the theme by going to **Code > Preferences > Color Theme** and selecting **Atom One Dark** (or **Atom One Light** if that is your preference).
 
 To sync-up all settings, including extensions, themes, and key bindings, install [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) then refer with this Gist https://gist.github.com/raksit31667/fd9d40a03773c43b663aabd834d62716.
+
+## Java
+
+Java™ is the world's leading programming language and platform. AdoptOpenJDK uses infrastructure, build and test scripts to produce prebuilt binaries from OpenJDK™ class libraries and a choice of either OpenJDK or the Eclipse OpenJ9 VM. All AdoptOpenJDK binaries and scripts are open source licensed and available for free.
+
+Install OpenJDK via Homebrew by running:
+
+```
+brew install --cask adoptopenjdk
+brew install openjdk
+```
+
+When finished, open your `.bash_profile` in the home directory (you can use `code ~/.bash_profile`), and add the following line:
+
+```bash
+# Java configuration
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
+
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java11='export JAVA_HOME=$JAVA_11_HOME'
+
+# default to Java 11
+java11
+```
+
+Save the file and reload it with:
+
+```
+source ~/.bash_profile
+```
 
 ## IntelliJ IDEA
 
