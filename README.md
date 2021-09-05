@@ -1080,7 +1080,7 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop): The fastest way to containerize applications on your desktop. **(Free)**
 - [1Password](https://1password.com/): Securely store your login and passwords, and access them from all your devices. **($3/month)**
 - [Postman](https://www.postman.com/downloads/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
-- [Spectacle](https://www.spectacleapp.com/): Move and resize windows with keyboard shortcuts. **(Free)**
+- [DBeaver](https://dbeaver.io/): Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases. **(Free for community features)**
 - [Clipy](https://clipy-app.com/): A Clipboard extension app for macOS. **(Free)**
 - [Bluesnooze](https://github.com/odlp/bluesnooze/): Prevents your sleeping Mac from connecting to Bluetooth accessories. **(Free)**
 - [Lens](https://k8slens.dev/): The Kubernetes IDE. **(Free)**
