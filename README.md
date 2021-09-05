@@ -12,6 +12,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
 - [Oh My Zsh](#oh-my-zsh)
+- [direnv](#direnv)
 - [Git](#git)
 - [Visual Studio Code](#visual-studio-code)
 - [Java](#java)
@@ -277,6 +278,20 @@ In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/
 
 My themes:
 - [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt#oh-my-zsh)
+
+
+## direnv
+`direnv` is an extension for your shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory. To install, simply run:
+
+```
+brew install direnv
+```
+
+For direnv to work properly it needs to be hooked into the shell. Each shell has its own extension mechanism. Once the hook is configured, restart your shell for direnv to be activated. Add the following line at the end of the `~/.zshrc` file:
+
+```
+eval "$(direnv hook zsh)"
+```
 
 
 ## Git
