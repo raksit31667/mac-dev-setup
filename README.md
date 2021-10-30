@@ -379,29 +379,24 @@ To sync-up all settings, including extensions, themes, and key bindings, install
 
 ## Java
 
-Java™ is the world's leading programming language and platform. AdoptOpenJDK uses infrastructure, build and test scripts to produce prebuilt binaries from OpenJDK™ class libraries and a choice of either OpenJDK or the Eclipse OpenJ9 VM. All AdoptOpenJDK binaries and scripts are open source licensed and available for free.
+Java™ is the world's leading programming language and platform. AdoptOpenJDK uses infrastructure, build and test scripts to produce prebuilt binaries from OpenJDK™ class libraries and a choice of either OpenJDK or the Eclipse OpenJ9 VM. All AdoptOpenJDK binaries and scripts are open source licensed and available for free. However, AdoptOpenJDK officially deprecated in favor of the `temurin` casks provided directly from the Homebrew project, and will receive no further updates after 2021-08-01 (Aug 01, 2021). Please adjust your usage accordingly (see [AdoptOpenJDK Homebrew GitHub](https://github.com/AdoptOpenJDK/homebrew-openjdk).
 
-Install OpenJDK via Homebrew by running:
+Install Temurin via Homebrew by running:
 
 ```
-brew tap adoptopenjdk/openjdk
-
-brew install --cask adoptopenjdk11
-brew install openjdk
+brew install --cask temurin
 ```
 
 When finished, open your `.bash_profile` in the home directory (you can use `code ~/.bash_profile`), and add the following line:
 
 ```bash
 # Java configuration
-export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
-export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
+export JAVA_17_HOME=$(/usr/libexec/java_home -v17)
 
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
+alias java17='export JAVA_HOME=$JAVA_17_HOME'
 
-# default to Java 11
-java11
+# default to Java 17
+java17
 ```
 
 Save the file and reload it with:
