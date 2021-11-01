@@ -1,2 +1,4 @@
 adoptopenjdk
 aws-vault
+temurin
+keycastr
