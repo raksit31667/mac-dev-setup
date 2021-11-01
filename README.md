@@ -1081,3 +1081,4 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [Lens](https://k8slens.dev/): The Kubernetes IDE. **(Free)**
 - [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox): Free universal JMS client. **(Free)**
 - [diagrams.net](https://get.diagrams.net/): Online diagramming web site. **(Free)**
+- [Keycastr](https://github.com/keycastr/keycastr): An open-source keystroke visualizer. **(Free)**
