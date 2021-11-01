@@ -109,14 +109,12 @@ if [ -f '/Users/raksitman/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then .
 SPACESHIP_KUBECTL_SHOW=true
 
 # Java configuration
-export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
-export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
+export JAVA_17_HOME=$(/usr/libexec/java_home -v17)
 
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
+alias java17='export JAVA_HOME=$JAVA_17_HOME'
 
-# default to Java 11
-java11
+# default to Java 17
+java17
 
 # Python configuration
 
