@@ -1067,6 +1067,7 @@ You can customize Chrome on your desktop by adding extensions from the Chrome We
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) Validate and view JSON documents.
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
+- [Requestly](https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa) Intercept & Modify HTTP(s) Requests - Modify Headers, Mock APIs, Throttle APIs, Insert Scripts, Block APIs/JS/CSS, Redirect URLs etc.
 
 ## Apps
 
