@@ -417,6 +417,7 @@ List of my installed plugins:
 ```
 .ignore (4.0.3)
 Atom Material Icons (35.0)
+CheckStyle-IDEA (5.60.0)
 EJS (203.5981.152)
 Gitmoji Plus: Commit Button (1.7.0)
 Go Template (203.7148.40)
