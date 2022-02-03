@@ -1066,6 +1066,7 @@ This really depends on how you want to organize your files, but I like to put al
 ## Chrome extensions
 You can customize Chrome on your desktop by adding extensions from the Chrome Web Store.
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) Validate and view JSON documents.
+- [1Password](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa) Password Manager.
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
 - [Requestly](https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa) Intercept & Modify HTTP(s) Requests - Modify Headers, Mock APIs, Throttle APIs, Insert Scripts, Block APIs/JS/CSS, Redirect URLs etc.
@@ -1074,7 +1075,7 @@ You can customize Chrome on your desktop by adding extensions from the Chrome We
 
 Here is a quick list of some apps I use, and that you might find useful as well:
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop): The fastest way to containerize applications on your desktop. **(Free)**
+- [Rancher Desktop](https://rancherdesktop.io/): Kubernetes and Container Management on the Desktop. **(Free)**
 - [1Password](https://1password.com/): Securely store your login and passwords, and access them from all your devices. **($3/month)**
 - [Postman](https://www.postman.com/downloads/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
 - [DBeaver](https://dbeaver.io/): Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases. **(Free for community features)**
