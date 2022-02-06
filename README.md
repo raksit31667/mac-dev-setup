@@ -22,7 +22,9 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [Install](#install-2)
     - [Usage](#usage-1)
   - [Oh My Zsh](#oh-my-zsh)
-    - [Install](#install-3)
+    - [Export Oh My Zsh using Chezmoi](#export-oh-my-zsh-using-chezmoi)
+    - [Install (Chezmoi)](#install-chezmoi)
+    - [Install (manual)](#install-manual)
     - [Plugins](#plugins)
     - [Themes](#themes)
   - [direnv](#direnv)
@@ -40,7 +42,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [npm](#npm)
     - [yarn](#yarn)
   - [Ruby](#ruby)
-    - [Install](#install-4)
+    - [Install](#install-3)
     - [Usage](#usage-2)
     - [RubyGems & Bundler](#rubygems--bundler)
   - [Heroku](#heroku)
@@ -200,17 +202,15 @@ brew list --cask -1
 ```
 
 
-To install all formula from text file:
+To export all formula, and casks from text file as dotfiles:
 
 ```
-xargs brew install < homebrew-formula.txt
+brew bundle dump
 ```
 
-To install all casks from text file:
+Then apply, and commit your changes via Chezmoi.  
 
-```
-xargs brew install --cask < homebrew-formula.txt
-```
+To install all formula, and casks from text file using [Chezmoi](https://www.chezmoi.io/), check out [Chezmoi](#chezmoi) section.
 
 ### Homebrew Services
 
@@ -237,7 +237,7 @@ brew services list
 ```
 
 ## Chezmoi
-[Chezmoi](https://github.com/twpayne/chezmoi) Manage your dotfiles across multiple diverse machines, securely. 
+[Chezmoi](https://www.chezmoi.io/) manages your dotfiles across multiple diverse machines, securely. 
 With chezmoi, you can install chezmoi and your dotfiles on a new, empty machine with a single command.
 
 ### Install
@@ -262,7 +262,7 @@ If you are happy with the changes that chezmoi will make then run:
 chezmoi apply -v
 ```
 
-Add/update your dotfiles, then commit your changes:
+Add/update your dotfiles, then commit your changes. For example:
 
 ```
 chezmoi edit ~/.zshrc // This will open `~/.local/share/chezmoi/dot_zshrc`
@@ -276,7 +276,28 @@ git commit -m "Initial commit"
 
 [Oh My Zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout... "Oh My ZSH!"
 
-### Install
+### Export Oh My Zsh using Chezmoi
+To export Oh My Zsh, including plugins and theme as dotfiles, run this command:
+
+```
+chezmoi add -r --exact ~/.oh-my-zsh
+```
+
+Then apply, and commit your changes via Chezmoi.
+
+### Install (Chezmoi)
+
+See [Chezmoi](#chezmoi) section for more details.
+
+For [Spaceship ZSH](https://github.com/spaceship-prompt/spaceship-prompt), we need to run an extra command to symlink `spaceship.zsh-theme` to your oh-my-zsh custom themes directory:
+
+```
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+
+Set `ZSH_THEME="spaceship"` in your `.zshrc`.
+
+### Install (manual)
 
 Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line.
 
