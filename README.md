@@ -18,8 +18,11 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [Install](#install-1)
     - [Usage](#usage)
     - [Homebrew Services](#homebrew-services)
-  - [Oh My Zsh](#oh-my-zsh)
+  - [Chezmoi](#chezmoi)
     - [Install](#install-2)
+    - [Usage](#usage-1)
+  - [Oh My Zsh](#oh-my-zsh)
+    - [Install](#install-3)
     - [Plugins](#plugins)
     - [Themes](#themes)
   - [direnv](#direnv)
@@ -37,8 +40,8 @@ The document assumes you are new to Mac, but can also be useful if you are reins
     - [npm](#npm)
     - [yarn](#yarn)
   - [Ruby](#ruby)
-    - [Install](#install-3)
-    - [Usage](#usage-1)
+    - [Install](#install-4)
+    - [Usage](#usage-2)
     - [RubyGems & Bundler](#rubygems--bundler)
   - [Heroku](#heroku)
   - [Projects folder](#projects-folder)
@@ -231,6 +234,42 @@ At anytime you can view which services are running with:
 
 ```
 brew services list
+```
+
+## Chezmoi
+[Chezmoi](https://github.com/twpayne/chezmoi) Manage your dotfiles across multiple diverse machines, securely. 
+With chezmoi, you can install chezmoi and your dotfiles on a new, empty machine with a single command.
+
+### Install
+
+Install chezmoi with your package manager with a single command:
+
+```
+brew install chezmoi
+```
+
+### Usage
+
+Initialize chezmoi with your dotfiles repo. This will check out the repo and any submodules and optionally create a chezmoi config file for you.
+
+```
+chezmoi init https://github.com/raksit31667/dotfiles.git
+```
+
+If you are happy with the changes that chezmoi will make then run:
+
+```
+chezmoi apply -v
+```
+
+Add/update your dotfiles, then commit your changes:
+
+```
+chezmoi edit ~/.zshrc // This will open `~/.local/share/chezmoi/dot_zshrc`
+chezmoi -v apply
+chezmoi cd
+git add .
+git commit -m "Initial commit"
 ```
 
 ## Oh My Zsh
