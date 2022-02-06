@@ -6,28 +6,44 @@ The document assumes you are new to Mac, but can also be useful if you are reins
 
 **Contributing**: If you find any mistakes in the steps described below, or if any of the commands are outdated, do let me know! For any other suggestions, please understand if I don't include everything. This guide was originally written for some friends getting started with programming on a Mac, and as a personal reference for myself. I'm trying to keep it simple!
 
-- [System update](#system-update)
-- [System preferences](#system-preferences)
-- [Security](#security)
-- [iTerm2](#iterm2)
-- [Homebrew](#homebrew)
-- [Oh My Zsh](#oh-my-zsh)
-- [direnv](#direnv)
-- [Git](#git)
-- [Visual Studio Code](#visual-studio-code)
-- [Java](#java)
-- [IntelliJ IDEA](#intellij-idea)
-- [Vim](#vim)
-- [Python](#python)
-- [Node.js](#nodejs)
-- [Ruby](#ruby)
-- [Heroku](#heroku)
-- [PostgreSQL](#postgresql)
-- [Redis](#redis)
-- [Elasticsearch](#elasticsearch)
-- [Chrome extensions](#chrome-extensions)
-- [Projects folder](#projects-folder)
-- [Apps](#apps)
+- [macOS Dev Setup](#macos-dev-setup)
+  - [System update](#system-update)
+  - [System preferences](#system-preferences)
+  - [Security](#security)
+  - [iTerm2](#iterm2)
+    - [Install](#install)
+    - [Using Alt/Cmd + Right/Left Arrow](#using-altcmd--rightleft-arrow)
+    - [Beautiful terminal](#beautiful-terminal)
+  - [Homebrew](#homebrew)
+    - [Install](#install-1)
+    - [Usage](#usage)
+    - [Homebrew Services](#homebrew-services)
+  - [Oh My Zsh](#oh-my-zsh)
+    - [Install](#install-2)
+    - [Plugins](#plugins)
+    - [Themes](#themes)
+  - [direnv](#direnv)
+  - [Git](#git)
+  - [Visual Studio Code](#visual-studio-code)
+  - [Java](#java)
+  - [IntelliJ IDEA](#intellij-idea)
+  - [Vim](#vim)
+  - [Python](#python)
+    - [pip](#pip)
+    - [virtualenv](#virtualenv)
+    - [Anaconda and Miniconda](#anaconda-and-miniconda)
+    - [Known issue: `gettext` not found by `git` after installing Anaconda/Miniconda](#known-issue-gettext-not-found-by-git-after-installing-anacondaminiconda)
+  - [Node.js](#nodejs)
+    - [npm](#npm)
+    - [yarn](#yarn)
+  - [Ruby](#ruby)
+    - [Install](#install-3)
+    - [Usage](#usage-1)
+    - [RubyGems & Bundler](#rubygems--bundler)
+  - [Heroku](#heroku)
+  - [Projects folder](#projects-folder)
+  - [Chrome extensions](#chrome-extensions)
+  - [Apps](#apps)
 
 ## System update
 
@@ -966,98 +982,6 @@ heroku logs -t
 ```
 
 The [Heroku Dev Center](https://devcenter.heroku.com/) is full of great resources, so be sure to check it out!
-
-## PostgreSQL
-
-[PostgreSQL](https://www.postgresql.org/) is a popular relational database, and Heroku has first-class support for it.
-
-Install PostgreSQL using Homebrew:
-
-```
-brew install postgresql
-```
-
-It will automatically add itself to Homebrew Services. Start it with:
-
-```
-brew services start postgresql
-```
-
-If you reboot your machine, PostgreSQL will be restarted at login.
-
-### GUI
-
-You can interact with your SQL database by running `psql` in the terminal.
-
-If you prefer a GUI (Graphical User Interface), [Postico](https://eggerapps.at/postico/) has a simple free version that let's you explore tables and run SQL queries.
-
-## Redis
-
-[Redis](http://redis.io/) is a fast, in-memory, key-value store, that uses the disk for persistence. It complements nicely a database such as PostgreSQL. There are a lot of [interesting things](http://oldblog.antirez.com/post/take-advantage-of-redis-adding-it-to-your-stack.html) that you can do with it. For example, it's often used for session management or caching by web apps, but it has many other uses.
-
-To install Redis, use Homebrew:
-
-```
-brew install redis
-```
-
-Start it through Homebrew Services with:
-
-```
-brew services start redis
-```
-
-I'll let you refer to Redis' [documentation](http://redis.io/documentation) or other tutorials for more information.
-
-## Elasticsearch
-
-[Elasticsearch](https://www.elastic.co/products/elasticsearch) is a distributed search and analytics engine. It uses an HTTP REST API, making it easy to work with from any programming language.
-
-You can use elasticsearch for things such as real-time search results, autocomplete, recommendations, machine learning, and more.
-
-### Install
-
-Elasticsearch runs on Java, so check if you have it installed by running:
-
-```bash
-java -version
-```
-
-If Java isn't installed yet, dismiss the window that just appeared by clicking "Ok", and install Java via Homebrew:
-
-```
-brew cask install homebrew/cask-versions/java8
-```
-
-Next, install Elasticsearch with:
-
-```bash
-brew install elasticsearch
-```
-
-### Usage
-
-Start the Elasticsearch server with:
-
-```bash
-brew services start elasticsearch
-```
-
-Test that the server is working correctly by running:
-
-```bash
-curl -XGET 'http://localhost:9200/'
-```
-
-(You may need to wait a little bit for it to boot up if you just started the service.)
-
-Elasticsearch's [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) is more of a reference. To get started, you can also take a look at [Elasticsearch: The Definitive Guide](https://www.elastic.co/guide/en/elasticsearch/guide/master/index.html).
-
-### GUI
-
-You can interact with the Elasticsearch server using `curl`, or anything that can send an HTTP request.
-
-However, if you prefer a graphical interface, you can take a look at [Dejavu](https://opensource.appbase.io/dejavu/). You can easily install it via the [Dejavu Chrome Extension](https://chrome.google.com/webstore/detail/dejavu-elasticsearch-web/jopjeaiilkcibeohjdmejhoifenbnmlh).
 
 ## Projects folder
 
