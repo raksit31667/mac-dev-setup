@@ -64,6 +64,8 @@ In **Apple Icon > System Preferences**:
 - Keyboard > Key Repeat > Fast (all the way to the right)
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
 - Dock > Automatically hide and show the Dock
+- Mission Control > Hot Corners... > Top Right > Desktop
+- Displays > Night Shift... > Schedule > Sunset to Sunrise
 
 ## Security
 
