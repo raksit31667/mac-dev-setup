@@ -1069,7 +1069,7 @@ You can customize Chrome on your desktop by adding extensions from the Chrome We
 
 Here is a quick list of some apps I use, and that you might find useful as well:
 
-- [Rancher Desktop](https://rancherdesktop.io/): Kubernetes and Container Management on the Desktop. **(Free)**
+- [Portainer](https://www.portainer.io/): Universal Container Management System for Kubernetes, Docker/Swarm, and Nomad. **(Free)**
 - [1Password](https://1password.com/): Securely store your login and passwords, and access them from all your devices. **($3/month)**
 - [Postman](https://www.postman.com/downloads/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
 - [DBeaver](https://dbeaver.io/): Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases. **(Free for community features)**
