@@ -467,10 +467,11 @@ To sync-up all settings, including extensions, themes, and key bindings, install
 
 Java™ is the world's leading programming language and platform. AdoptOpenJDK uses infrastructure, build and test scripts to produce prebuilt binaries from OpenJDK™ class libraries and a choice of either OpenJDK or the Eclipse OpenJ9 VM. All AdoptOpenJDK binaries and scripts are open source licensed and available for free. However, AdoptOpenJDK officially deprecated in favor of the `temurin` casks provided directly from the Homebrew project, and will receive no further updates after 2021-08-01 (Aug 01, 2021). Please adjust your usage accordingly (see [AdoptOpenJDK Homebrew GitHub](https://github.com/AdoptOpenJDK/homebrew-openjdk)).
 
-Install Temurin via Homebrew by running:
+Install Java 17 Temurin via Homebrew by running:
 
 ```
-brew install --cask temurin
+brew tap homebrew/cask-versions
+brew install --cask temurin17
 ```
 
 When finished, open your `.bash_profile` in the home directory (you can use `code ~/.bash_profile`), and add the following line:
