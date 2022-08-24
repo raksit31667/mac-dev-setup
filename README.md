@@ -1081,3 +1081,4 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [diagrams.net](https://get.diagrams.net/): Online diagramming web site. **(Free)**
 - [Keycastr](https://github.com/keycastr/keycastr): An open-source keystroke visualizer. **(Free)**
 - [Mouseposé](https://boinx.com/mousepose/): Highlight your mouse pointer and cursor position. **($10.69/year)**
+- [RunCat](https://kyome.io/runcat/index.html?lang=en): Provides a key-frame animation to the menu bar. Animation changes the speed depending on the CPU usage of Mac. **(Free)**
