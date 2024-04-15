@@ -44,7 +44,7 @@ The document assumes you are new to Mac, but can also be useful if you are reins
   - [Ruby](#ruby)
     - [Install](#install-3)
     - [Usage](#usage-2)
-    - [RubyGems & Bundler](#rubygems--bundler)
+    - [RubyGems \& Bundler](#rubygems--bundler)
   - [Heroku](#heroku)
   - [Projects folder](#projects-folder)
   - [Chrome extensions](#chrome-extensions)
@@ -357,6 +357,9 @@ source ~/.zshrc
 
 My plugins:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+- [z](https://github.com/agkozak/zsh-z)
+- [asdf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf)
 
 ### Themes
 
@@ -1072,13 +1075,10 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 
 - [Portainer](https://www.portainer.io/): Universal Container Management System for Kubernetes, Docker/Swarm, and Nomad. **(Free)**
 - [1Password](https://1password.com/): Securely store your login and passwords, and access them from all your devices. **($3/month)**
-- [Postman](https://www.postman.com/downloads/): Easily make HTTP requests. Useful to test your REST APIs. **(Free for basic features)**
+- [Bruno](https://www.usebruno.com/): Fast and Git-Friendly Opensource API client. **(Free for Opensource Edition)**
 - [DBeaver](https://dbeaver.io/): Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases. **(Free for community features)**
 - [Clipy](https://clipy-app.com/): A Clipboard extension app for macOS. **(Free)**
 - [Bluesnooze](https://github.com/odlp/bluesnooze/): Prevents your sleeping Mac from connecting to Bluetooth accessories. **(Free)**
-- [Lens](https://k8slens.dev/): The Kubernetes IDE. **(Free)**
-- [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox): Free universal JMS client. **(Free)**
-- [diagrams.net](https://get.diagrams.net/): Online diagramming web site. **(Free)**
-- [Keycastr](https://github.com/keycastr/keycastr): An open-source keystroke visualizer. **(Free)**
-- [Mouseposé](https://boinx.com/mousepose/): Highlight your mouse pointer and cursor position. **($10.69/year)**
+- [Excalidraw](https://excalidraw.com/): Online diagramming web site. **(Free)**
 - [RunCat](https://kyome.io/runcat/index.html?lang=en): Provides a key-frame animation to the menu bar. Animation changes the speed depending on the CPU usage of Mac. **(Free)**
+- [Menu World Time](https://apps.apple.com/us/app/menu-world-time/id1446377255?mt=12): Get times for cities around the world straight from the menu bar. **(Free)**
